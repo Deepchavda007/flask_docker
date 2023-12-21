@@ -1,0 +1,126 @@
+2023-12-11 10:16:54,229 - My_Logger - INFO - [36m{'batch_id': '23123', 'a': 5, 'b': 25}[0m
+2023-12-11 10:17:08,714 - My_Logger - INFO - [36mImmutableMultiDict([('batch_id', '23123')])[0m
+2023-12-11 10:17:15,445 - My_Logger - INFO - [36mImmutableMultiDict([('batch_id', '23123')])[0m
+2023-12-11 10:17:34,795 - My_Logger - INFO - [36m{'batch_id': '23123', 'a': 5, 'b': 25}[0m
+2023-12-11 10:17:37,764 - My_Logger - INFO - [36m{'batch_id': '2123', 'a': 5, 'b': 25}[0m
+2023-12-11 10:17:40,491 - My_Logger - INFO - [36m{'batch_id': '223', 'a': 5, 'b': 25}[0m
+2023-12-11 10:17:43,060 - My_Logger - INFO - [36m{'batch_id': '23', 'a': 5, 'b': 25}[0m
+2023-12-11 10:17:59,225 - My_Logger - INFO - [36mImmutableMultiDict([('batch_id', '223')])[0m
+2023-12-11 10:18:08,138 - My_Logger - INFO - [36mImmutableMultiDict([('batch_id', '223')])[0m
+2023-12-11 15:58:10,936 - My_Logger - INFO - [36m{'batch_id': '23', 'a': 5, 'b': '25'}[0m
+2023-12-11 15:58:17,713 - My_Logger - INFO - [36m{'batch_id': '23', 'a': 5, 'b': 25}[0m
+2023-12-11 15:58:17,714 - My_Logger - ERROR - Error: cannot unpack non-iterable NoneType object
+2023-12-11 15:58:17,714 - My_Logger - ERROR - Exception type: <class 'TypeError'>
+2023-12-11 15:58:17,714 - My_Logger - ERROR - Exception value: cannot unpack non-iterable NoneType object
+2023-12-11 15:58:17,714 - My_Logger - ERROR - Exception traceback details: Traceback (most recent call last):
+  File "C:\Users\techc\OneDrive\Desktop\maths_api\app.py", line 103, in handle_request
+    response, status_code = func(par)
+TypeError: cannot unpack non-iterable NoneType object
+
+2023-12-11 15:58:22,303 - My_Logger - INFO - [36m{'batch_id': '23', 'a': 5, 'b': 25}[0m
+2023-12-11 15:58:22,305 - My_Logger - ERROR - Error: cannot unpack non-iterable NoneType object
+2023-12-11 15:58:22,305 - My_Logger - ERROR - Exception type: <class 'TypeError'>
+2023-12-11 15:58:22,305 - My_Logger - ERROR - Exception value: cannot unpack non-iterable NoneType object
+2023-12-11 15:58:22,305 - My_Logger - ERROR - Exception traceback details: Traceback (most recent call last):
+  File "C:\Users\techc\OneDrive\Desktop\maths_api\app.py", line 103, in handle_request
+    response, status_code = func(par)
+TypeError: cannot unpack non-iterable NoneType object
+
+2023-12-11 15:58:32,671 - My_Logger - INFO - [36m{'batch_id': '23', 'a': 5, 'b': 25}[0m
+2023-12-11 15:58:32,672 - My_Logger - ERROR - Error: cannot unpack non-iterable NoneType object
+2023-12-11 15:58:32,672 - My_Logger - ERROR - Exception type: <class 'TypeError'>
+2023-12-11 15:58:32,672 - My_Logger - ERROR - Exception value: cannot unpack non-iterable NoneType object
+2023-12-11 15:58:32,672 - My_Logger - ERROR - Exception traceback details: Traceback (most recent call last):
+  File "C:\Users\techc\OneDrive\Desktop\maths_api\app.py", line 103, in handle_request
+    response, status_code = func(par)
+TypeError: cannot unpack non-iterable NoneType object
+
+2023-12-11 15:58:39,167 - My_Logger - INFO - [36m{'batch_id': '23', 'a': 5, 'b': '25'}[0m
+2023-12-11 15:59:19,858 - My_Logger - INFO - [36m{'batch_id': '23', 'a': 5, 'b': 25}[0m
+2023-12-11 15:59:27,707 - My_Logger - INFO - [36m{'batch_id': '23', 'a': 5, 'b': '25'}[0m
+2023-12-11 16:00:07,138 - My_Logger - INFO - [36m{'batch_id': '23', 'a': 5, 'b': '25'}[0m
+2023-12-11 21:11:21,099 - My_Logger - ERROR - Exception on /sum1 [POST]
+Traceback (most recent call last):
+  File "C:\Users\techc\AppData\Roaming\Python\Python39\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\techc\AppData\Roaming\Python\Python39\site-packages\flask\app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\techc\AppData\Roaming\Python\Python39\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\techc\AppData\Roaming\Python\Python39\site-packages\flask\app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\techc\AppData\Roaming\Python\Python39\site-packages\flask\app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\techc\AppData\Roaming\Python\Python39\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "C:\Users\techc\AppData\Roaming\Python\Python39\site-packages\flask\helpers.py", line 175, in make_response
+    return current_app.make_response(args)  # type: ignore
+  File "C:\Users\techc\AppData\Roaming\Python\Python39\site-packages\flask\app.py", line 1161, in make_response
+    raise TypeError(
+TypeError: The view function for 'sum1' did not return a valid response. The function either returned None or ended without a return statement.
+2023-12-11 21:11:21,102 - My_Logger - ERROR - Internal Server Error
+2023-12-11 21:13:15,028 - My_Logger - ERROR - Exception on /sum1 [POST]
+Traceback (most recent call last):
+  File "C:\Users\techc\AppData\Roaming\Python\Python39\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\techc\AppData\Roaming\Python\Python39\site-packages\flask\app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\techc\AppData\Roaming\Python\Python39\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\techc\AppData\Roaming\Python\Python39\site-packages\flask\app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\techc\AppData\Roaming\Python\Python39\site-packages\flask\app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\techc\AppData\Roaming\Python\Python39\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "C:\Users\techc\OneDrive\Desktop\maths_api\app.py", line 168, in sum1
+    result = sum_two_number(data['a'], data['b'])
+  File "C:\Users\techc\OneDrive\Desktop\maths_api\test.py", line 4, in sum_two_number
+    return a + b
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+2023-12-11 21:13:15,030 - My_Logger - ERROR - Internal Server Error
+2023-12-11 21:20:24,215 - My_Logger - ERROR - Exception on /sum1 [POST]
+Traceback (most recent call last):
+  File "C:\Users\techc\AppData\Roaming\Python\Python39\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\techc\AppData\Roaming\Python\Python39\site-packages\flask\app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\techc\AppData\Roaming\Python\Python39\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\techc\AppData\Roaming\Python\Python39\site-packages\flask\app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\techc\AppData\Roaming\Python\Python39\site-packages\flask\app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\techc\AppData\Roaming\Python\Python39\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "C:\Users\techc\OneDrive\Desktop\maths_api\app.py", line 141, in sum_numbers1
+    return jsonify({result})
+TypeError: unhashable type: 'dict'
+2023-12-11 21:20:24,216 - My_Logger - ERROR - Internal Server Error
+2023-12-11 21:20:35,551 - My_Logger - ERROR - Exception on /sum1 [POST]
+Traceback (most recent call last):
+  File "C:\Users\techc\AppData\Roaming\Python\Python39\site-packages\flask\app.py", line 1455, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\techc\AppData\Roaming\Python\Python39\site-packages\flask\app.py", line 869, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\techc\AppData\Roaming\Python\Python39\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\techc\AppData\Roaming\Python\Python39\site-packages\flask\app.py", line 867, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\techc\AppData\Roaming\Python\Python39\site-packages\flask\app.py", line 852, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\techc\AppData\Roaming\Python\Python39\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "C:\Users\techc\OneDrive\Desktop\maths_api\app.py", line 141, in sum_numbers1
+    return jsonify({result})
+TypeError: unhashable type: 'dict'
+2023-12-11 21:20:35,552 - My_Logger - ERROR - Internal Server Error
+2023-12-11 21:25:05,301 - My_Logger - INFO - [36m{'batch_id': '23', 'a': 5, 'b': '25'}[0m
+2023-12-11 21:25:15,872 - My_Logger - INFO - [36m{'batch_id': '23', 'a': 5, 'b': 25}[0m
+2023-12-11 21:25:20,561 - My_Logger - INFO - [36m{'batch_id': '231', 'a': 5, 'b': 25}[0m
+2023-12-11 21:25:24,599 - My_Logger - INFO - [36m{'batch_id': '2312', 'a': 5, 'b': 25}[0m
+2023-12-11 21:25:47,108 - My_Logger - INFO - [36mImmutableMultiDict([('batch_id', '2312')])[0m
+2023-12-11 21:26:58,459 - My_Logger - INFO - [36m{'batch_id': '2312', 'a': 5, 'b': 25}[0m
+2023-12-11 21:27:01,606 - My_Logger - INFO - [36m{'batch_id': '23', 'a': 5, 'b': 25}[0m
+2023-12-11 21:27:09,326 - My_Logger - INFO - [36m{'batch_id': '3', 'a': 5, 'b': 25}[0m
+2023-12-11 21:27:16,030 - My_Logger - INFO - [36m{'batch_id': '2', 'a': 5, 'b': 25}[0m
